@@ -7,7 +7,7 @@ spec:
   description: Retail Store Sample Application
   
   sourceRepos:
-    - 'https://github.com/arumullayaswanth/k8s-microservices-ecommerce-app'
+    - 'https://github.com/TanUjNimkar/aws-eks-gitops-ecommerce-platform'
   
   destinations:
     - namespace: retail-store
