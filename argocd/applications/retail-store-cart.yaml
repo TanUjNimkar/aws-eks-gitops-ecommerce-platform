@@ -1,5 +1,5 @@
 apiVersion: argoproj.io/v1alpha1
-kind: Applicatio
+kind: Application
 metadata:
   name: retail-store-cart
   namespace: argocd
