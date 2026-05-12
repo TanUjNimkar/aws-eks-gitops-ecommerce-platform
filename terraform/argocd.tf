@@ -162,7 +162,7 @@ resource "kubectl_manifest" "argocd_apps" {
 
   # Force delete on destroy to avoid hanging
   force_conflicts   = true
-  server_side_apply = 
+  server_side_apply = true
   wait              = false
 
   depends_on = [kubectl_manifest.argocd_projects]
