@@ -21,6 +21,6 @@ spec:
   syncPolicy:
     automated:
       prune: true
-      selfHeal: flase
+      selfHeal: true
     syncOptions:
       - CreateNamespace=true 
