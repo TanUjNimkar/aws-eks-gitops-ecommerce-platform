@@ -4,7 +4,7 @@
 
 # Wait for the cluster and add-ons to be ready
 resource "time_sleep" "wait_for_cluster" {
-  create_duration = "30s"
+  create_duration = "30s"=
   depends_on = [
     module.retail_app_eks,
     helm_release.cert_manager,
